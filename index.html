@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navcontainer">
+        <div class="leftside">
+          <h1>Navbar</h1>
+
+          <ul class="displaynone">
+            <li><a class="home" href="#">Home</a></li>
+            <li><a class="link" href="#">Link</a></li>
+          </ul>
+
+          <select class="dropdown displaynone" name="esempi" id="esempi">
+            <option value="esempio 1">Esempio 1</option>
+            <option value="esempio 2">Esempio 2</option>
+            <option value="esempio 3">Esempio 3</option>
+            <option value="esempio 4">Esempio 4</option>
+          </select>
+          <button class="disabled displaynone" type="button" disabled>
+            Disabled
+          </button>
+        </div>
+        <div class="rightside displaynone">
+          <input
+            class="textsearch"
+            type="text"
+            placeholder="Search"
+            name="search"
+          />
+          <button class="search" type="search">Search</button>
+        </div>
+        <div class="hamburger displayon">
+          <div class="ingredients"></div>
+          <div class="ingredients"></div>
+          <div class="ingredients"></div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
